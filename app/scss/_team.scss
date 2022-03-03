@@ -1,0 +1,22 @@
+.team{
+
+    margin-top: 4rem;
+    
+
+    &__container{
+        width: calc(100% - 5rem);
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /*define width*/
+ }
+    
+    h2{
+        text-align: center;
+    }
+
+    &__item{
+        width: 300px;   
+        color: $white;
+        margin-bottom: 4rem;
+    }
+}

@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "name": "vanilla queencake",
+        "price": 40,
+        "image": { "fields": { "file": { "url": "/images/try.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "name": "Black Forest",
+        "price": 1400,
+        "image": { "fields": { "file": { "url": "/images/four-removebg-preview.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "name": "Chocolate queencake",
+        "price": 40,
+        "image": { "fields": { "file": { "url": "/images/cupcakes.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "name": "White Forest",
+        "price": 1400,
+        "image": { "fields": { "file": { "url": "/images/four-removebg-preview.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "name": "Chocochip cookies",
+        "price": 20,
+        "image": { "fields": { "file": { "url": "/images/try.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "name": "Coconut cookies",
+        "price": 20,
+        "image": { "fields": { "file": { "url": "/images/try.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "name": "Hazelnut cookies",
+        "price": 40,
+        "image": { "fields": { "file": { "url": "/images/try.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "name": "Red Velvet",
+        "price": 1200,
+        "image": { "fields": { "file": { "url": "/images/karly-gomez-rotFzR9lX0E-unsplash.jpg" } } }
+      }
+    }
+  ]
+}

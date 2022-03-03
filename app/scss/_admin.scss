@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    overflow-x: hidden;
+    //background-color: $white;
+}
+.admin__container{
+    position: relative;
+    width: 100%;
+}
+.navigation{
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background: $white;
+    transition: 0.5s;
+    overflow:hidden;
+}
+.navigation.active{
+    width: 60px;   
+}
+a{
+    text-decoration: none;
+    color: $dark;
+}
+
+td img{
+   width: 100px;
+   height: 100px;  
+   object-fit: cover;
+}
+ .logo__button{
+    display: flex;
+    align-items: center;
+    border: none;
+   background-color: $crimson;
+    }
+.tabs__button{
+    background: transparent;
+    outline: none;
+    border: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.navigation button{
+    position: relative;
+    width: 100%;
+}
+.navigation .tabs__button:hover{
+    background: $lightGrey;
+}
+
+
+.navigation .icon{
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center; 
+}
+.navigation .icon .fa{
+    color: $dark;
+    font-size: 24px;
+}
+.navigation .title{
+    position: relative;
+    display: block;
+    padding: 0 10px;
+    height: 60px;
+    line-height: 60px;
+    white-space: normal;
+    color: $dark;
+}
+.main{
+    position: absolute;
+    width: calc(100% - 300px);
+    left: 300px;
+    min-height: 100vh;
+    transition: 0.5s;
+}
+.main.active{
+   width: calc(100% - 60px);
+   left: 60px;
+}
+.main .top-bar{
+    width: 100%;
+    background: #fff;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.toggle{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.toggle span i{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    line-height: 60px;
+    font-size: 24px;
+    text-align: center;
+    color: #111;
+}
+
+@media screen and (max-width: 1000px) {
+    .main{
+        width: calc(100% - 60px);
+        left: 60px;
+    }
+    .navigation{
+        width: 60px;
+    }
+
+    .main.active{
+        width: calc(100% - 300px);
+        left: 300px;
+    }
+    .navigation.active{
+        width: 300px;
+    }
+}
+
+[data-tab-content]{
+    display: none;
+}
+
+.active[data-tab-content]{
+  display: block;
+  padding: 2em;
+}
+
+.tabs__button.active{
+    background: $lightGrey;
+    border-right: #fff;
+}
+
+.content-table {
+    border-collapse: collapse;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    margin: auto;
+  }
+  
+  .content-table thead tr {
+    background-color: $crimson;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .content-table th,
+  .content-table td {
+    padding: 12px 15px;
+  }
+  
+  .content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+
+   i{
+      padding-right: 5px;
+      cursor: pointer;
+  }
+
+  .cars__table{
+      margin-bottom: 10em;
+  }
+
+  form{
+    margin-left: 10%;
+    width: 100%;
+    margin-bottom: 1em;
+  }
+
+  .form{
+      width: 150px;
+  }
+
+  .form input{
+      width: 100%;
+      height: 30px;
+      border: 1px solid black;
+      border-radius: 5px;
+      outline: none;
+      cursor: pointer;
+      padding: 2px;
+      caret-color: teal;
+  }
+  
+  #add{
+      display: flex;
+      justify-content: center;
+      margin-top: 2em;
+  }
+  
+  #previews{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-auto-rows: 200px;
+      grid-auto-flow: dense;
+      gap: 5px;
+    }
+
+  #previews img{
+      max-width: 200px;
+      height: 100%;
+      object-fit: cover;
+  }
+input[type = 'file']{
+    display: none;
+}
+  #imagesLabel{
+    color: #fff;
+    height: 60px;
+    width: 250px;
+    background: $crimson;
+    margin-top: 4em;
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uploadImages{
+    margin-bottom: 3em;
+}
+
+.edit-form{
+    display: none;
+}
+
+.label-name{
+    font-weight: 500;
+}

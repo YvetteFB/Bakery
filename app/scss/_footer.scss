@@ -1,0 +1,52 @@
+footer{
+  background: $darkGrey;
+    height: auto;
+}
+
+footer p{
+  flex-wrap: wrap;
+  line-height: 1.5em;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+.socials{
+    display: flex;
+    flex-direction: column;
+    
+}
+.social{
+    margin: 5px;
+}
+
+@media screen and (max-width: 500px) {
+ 
+  .footer-container{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+  }
+  .socials{
+    flex-direction: row;
+    padding-top: 2.5em;
+    margin-left: 15%;
+  }
+  .social{
+    margin-right: 2em;
+  }
+
+.logo img{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+  .footer-column1{
+    display: flex;
+    height: 150px;
+    justify-content: center;
+  }
+}

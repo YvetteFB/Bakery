@@ -1,0 +1,27 @@
+.hero{
+    background-image: url(/images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @include breakpoint-up(large){
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+     &__text{
+        color: $white;
+        text-align: center;
+        h1{   
+            font-family: 'Rye', cursive;
+        }
+
+     }
+}

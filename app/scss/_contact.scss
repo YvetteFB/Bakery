@@ -1,0 +1,24 @@
+
+.email{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4em 1em;
+  align-self: center;
+}
+
+.email input{
+  padding: 2em;
+  width: 20em;
+  margin: .7em;
+  outline: none;
+  border: none;
+  border-radius: 49px;
+  background: rgb(223, 219, 219);
+  text-align: center;
+  
+}
+::placeholder {
+  color: $crimson;
+  opacity: 1; 
+}
