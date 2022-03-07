@@ -61,7 +61,7 @@
       "fields": {
         "name": "Red Velvet",
         "price": 1200,
-        "image": { "fields": { "file": { "url": "/images/karly-gomez-rotFzR9lX0E-unsplash.jpg" } } }
+        "image": { "fields": { "file": { "url": "/images/try.png" } } }
       }
     }
   ]

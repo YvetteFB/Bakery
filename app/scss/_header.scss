@@ -1,5 +1,18 @@
 .header {
+  @media screen and (max-width: 1024px){
+    .header__logo{
+      order: 2;
+    }
+    .header__cta{
+      order: 3;
+    }
+
+  }
+  &__logo{
+    height: 100px;
+  }
   &__cta {
+    order: 3;
     .cart-btn {
       position: relative;
       cursor: pointer;
@@ -192,6 +205,7 @@
     }
   }
 
+ 
   &__links {
     a {
       position: relative;
