@@ -5,4 +5,5 @@ function toggleMenu(){
     navigation.classList.toggle('active');
     let main = document.querySelector('.main');
     main.classList.toggle('active');
+    let menu_overlay =  document.querySelector('.header_menu');
 }

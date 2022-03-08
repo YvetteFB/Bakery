@@ -169,7 +169,7 @@
     right: 0px;
     bottom: 0px;
     left: 0px;
-    background-image: linear-gradient($darkBlue, transparent);
+    background: $lightPink;
   }
 
   nav {
@@ -208,7 +208,7 @@
     border-radius: 5px;
 
     a {
-      color: $grayishBlue;
+      color: $darkBlue;
       padding: 01.625rem;
       display: block;
       text-align: center;
